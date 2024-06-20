@@ -1,8 +1,7 @@
-matplotlib==3.8.4
-numpy==1.21.5
-pandas==2.2.2
-Pillow==9.0.1
-Pillow==10.3.0
-streamlit==1.30.0
-torch==2.1.2
-torchvision==0.16.2
+matplotlib==3.8.0   # Latest compatible version with numpy>=1.22.0
+numpy==1.22.4       # Compatible with Python 3.11 and higher
+pandas==1.4.3       # Compatible with numpy>=1.22.0
+Pillow==9.0.1       # Pillow version that works with other dependencies
+streamlit==1.30.0   # Compatible with numpy<2
+torch==2.1.2        # PyTorch version
+torchvision==0.16.2 # TorchVision version
